@@ -15,8 +15,8 @@ PortugalParadise is a web platform dedicated to showcasing the paradisiacal char
 {
   "place": "Boca do Inferno",
   "description": "The seawater has access to the deep bottom of the chasm and vigorously strikes its rocky walls, making it a popular tourist attraction.",
-  "location": "Av. Rei Humberto II de Itália 642, 2750-642 Cascais"
-   "image_filename": "Boca-do-inferno"
+  "location": "Av. Rei Humberto II de Itália 642, 2750-642 Cascais",
+  "image_filename": "Boca-do-inferno",
 
   
 }
@@ -25,8 +25,8 @@ PortugalParadise is a web platform dedicated to showcasing the paradisiacal char
 {
   "place": "Algarve",
   "description": "TThe Algarve, Portugal’s southernmost region, is known for its Atlantic beaches and golf resorts. .",
-  "location": "Faro"
-   "image_filename": "Algarve.jpg"
+  "location": "Faro",
+   "image_filename": "Algarve.jpg",
 
   
 
