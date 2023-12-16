@@ -1,4 +1,6 @@
-# PortugalParadise
+# Project Name
+
+PortugalParadise 
 
 <br>
 
@@ -11,23 +13,23 @@ PortugalParadise is a web platform dedicated to showcasing the paradisiacal char
 ## Data
 
 {
-  "title": "PortugalParadise",
-  "description": "Web platform dedicated to showcasing the beauty of Portugal",
-  "tasks": [
-   
-  ]
+  "place": "Boca do Inferno",
+  "description": "The seawater has access to the deep bottom of the chasm and vigorously strikes its rocky walls, making it a popular tourist attraction.",
+  "location": "Av. Rei Humberto II de Itália 642, 2750-642 Cascais"
+   "image_filename": "Boca-do-inferno"
+
+  
 }
 
-
-```
 
 {
-  "projectId": 1, 
-  "title": "Design Landing Page",
-  "description": "Create an engaging and visually appealing landing page for PortugalParadise"
-}
+  "place": "Algarve",
+  "description": "TThe Algarve, Portugal’s southernmost region, is known for its Atlantic beaches and golf resorts. .",
+  "location": "Faro"
+   "image_filename": "Algarve.jpg"
 
-```
+  
+
 
 <br>
 
