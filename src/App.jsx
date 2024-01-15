@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Home from './Pages/Home';
 import AboutPortugal from './Pages/AboutPortugal';
 import PopularCities from './Pages/PopularCities';
@@ -16,6 +17,7 @@ function App() {
         <Route path='/popular-cities' element={<PopularCities />} />
         <Route path='/popular-cities/:cityName' element={<CityDetails />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

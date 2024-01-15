@@ -2,11 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function CityCard(props) {
-  console.log(props.cityInfo);
+  const { img, name } = props.city;
+
   return (
-    <div id='location'>
-      <img src={props.city.img} />
-      <h2>{props.city.name}</h2>
+    <div className='city-card'>
+      <Link to={`/popular-cities/${name}`}>
+        <img src={img} alt={name} />
+        <h2>{name}</h2>
+      </Link>
     </div>
   );
 }

@@ -47,7 +47,7 @@ const cities = [
 
 function PopularCities() {
   return (
-    <div>
+    <div id='cities'>
       {cities.map(city => (
         <Link to={`/popular-cities/${city.name}`}>
           <CityCard city={city} />

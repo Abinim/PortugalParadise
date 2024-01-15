@@ -1,7 +1,8 @@
 import React from 'react';
+import AddPlaces from '../components/AddPlaces';
 
 function CityDetails() {
-  return <div>CityDetails</div>;
+  return <div>Hello</div>;
 }
-
+<AddPlaces />;
 export default CityDetails;
