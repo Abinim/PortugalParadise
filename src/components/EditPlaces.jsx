@@ -1,10 +1,10 @@
-// AddPlaces.jsx
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+
 const API_URL = 'https://testingprojects.adaptable.app/places';
 
-const AddPlaces = ({ addPlace, editMode, placeId, onEdit }) => {
-  const [placeData, setPlaceData] = useState({
+const EditPlaces = ({ placeId, onEdit }) => {
+  const [editedPlace, setEditedPlace] = useState({
     name: '',
     description: '',
     location: '',
@@ -13,47 +13,51 @@ const AddPlaces = ({ addPlace, editMode, placeId, onEdit }) => {
     city: '',
   });
 
+  useEffect(() => {
+    const fetchPlace = async () => {
+      try {
+        const response = await axios.get(
+          `http://localhost:4000/places/${placeId}`
+        );
+        const placeData = response.data;
+        setEditedPlace(placeData);
+      } catch (error) {
+        console.error('Error fetching place details:', error.message);
+      }
+    };
+
+    fetchPlace();
+  }, [placeId]);
+
   const handleInputChange = e => {
     const { name, value } = e.target;
-    setPlaceData({
-      ...placeData,
+    setEditedPlace({
+      ...editedPlace,
       [name]: value,
     });
   };
 
-  const handleSubmit = async e => {
+  const handleEditSubmit = async e => {
     e.preventDefault();
 
     try {
-      // console.log('data', placeData);
-      await axios.post(
-        'https://testingprojects.adaptable.app/places',
-        placeData
-      );
-
-      setPlaceData({
-        name: '',
-        description: '',
-        location: '',
-        type: '',
-        image: '',
-        city: '',
-      });
+      await axios.put(`http://localhost:4000/places/${placeId}`, editedPlace);
+      onEdit();
     } catch (error) {
-      console.error('Error submitting form:', error.message);
+      console.error('Error editing place:', error.message);
     }
   };
 
   return (
-    <div className='AddPlaces'>
-      <h4>{editMode ? 'Edit Place' : 'Add a Place'}</h4>
+    <div className='EditPlaces'>
+      <h4>Edit Place</h4>
 
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleEditSubmit}>
         <label>Name: </label>
         <input
           type='text'
           name='name'
-          value={placeData.name}
+          value={editedPlace.name}
           onChange={handleInputChange}
           required
         />
@@ -61,7 +65,7 @@ const AddPlaces = ({ addPlace, editMode, placeId, onEdit }) => {
         <label>Description: </label>
         <textarea
           name='description'
-          value={placeData.description}
+          value={editedPlace.description}
           onChange={handleInputChange}
           required
         />
@@ -70,7 +74,7 @@ const AddPlaces = ({ addPlace, editMode, placeId, onEdit }) => {
         <input
           type='text'
           name='location'
-          value={placeData.location}
+          value={editedPlace.location}
           onChange={handleInputChange}
           required
         />
@@ -79,7 +83,7 @@ const AddPlaces = ({ addPlace, editMode, placeId, onEdit }) => {
         <input
           type='text'
           name='type'
-          value={placeData.type}
+          value={editedPlace.type}
           onChange={handleInputChange}
           required
         />
@@ -88,7 +92,7 @@ const AddPlaces = ({ addPlace, editMode, placeId, onEdit }) => {
         <input
           type='url'
           name='image'
-          value={placeData.image}
+          value={editedPlace.image}
           onChange={handleInputChange}
           required
         />
@@ -97,16 +101,15 @@ const AddPlaces = ({ addPlace, editMode, placeId, onEdit }) => {
         <input
           type='text'
           name='city'
-          value={placeData.city}
+          value={editedPlace.city}
           onChange={handleInputChange}
           required
         />
 
-        <button type='submit'>{editMode ? 'Save Changes' : 'Add Place'}</button>
-        <button type=''>Edit</button>
+        <button type='submit'>Save Changes</button>
       </form>
     </div>
   );
 };
 
-export default AddPlaces;
+export default EditPlaces;

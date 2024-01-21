@@ -1,0 +1,627 @@
+{
+  "places": [
+    {
+      "name": "Funchal Old Town",
+      "description": "The historic heart of Funchal, known for its charming streets, local shops, and historic architecture.",
+      "location": "32.6475° N, 16.9148° W",
+      "type": "Historic District",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Town_Hall_Square_Funchal.jpg",
+      "city": "madeira"
+    },
+    {
+      "name": "Pico do Arieiro",
+      "description": "The third-highest peak on Madeira, offering breathtaking panoramic views of the island and surrounding ocean.",
+      "location": "32.7353° N, 16.9233° W",
+      "type": "Mountain Peak",
+      "image": "https://www.barcelo.com/guia-turismo/wp-content/uploads/2022/04/madeirda-pico-arieiro-888-1.jpg",
+      "city": "madeira"
+    },
+    {
+      "name": "Porto Moniz Natural Pools",
+      "description": "Natural volcanic pools on the northwest coast, perfect for swimming and enjoying the ocean views.",
+      "location": "32.8709° N, 17.1701° W",
+      "type": "Natural Pools",
+      "image": "https://discoverportugal2day.com/wp-content/uploads/2023/03/piscinas_naturais_porto_moniz.webp",
+      "city": "madeira"
+    },
+    {
+      "name": "Monte Palace Tropical Garden",
+      "description": "A beautiful botanical garden showcasing a diverse collection of plants, located in Monte near Funchal.",
+      "location": "32.6466° N, 16.8871° W",
+      "type": "Botanical Garden",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/10/d6/62/67/photo4jpg.jpg?w=1200&h=-1&s=1",
+      "city": "madeira"
+    },
+
+    {
+      "name": "Cabo Girão",
+      "description": "One of the highest sea cliffs in the world, providing breathtaking views of the Atlantic Ocean.",
+      "location": "32.6538° N, 17.0181° W",
+      "type": "Scenic Viewpoint",
+      "image": "https://blog.madeira.best/storage/uploads/tinymce/cabo%20gir%C3%A3o-%20madeira%20best.jpg",
+      "city": "madeira"
+    },
+
+    {
+      "name": "Levada Walks",
+      "description": "Explore the network of levadas (irrigation channels) with scenic walking trails across the island.",
+      "location": "Various locations",
+      "type": "Hiking",
+      "image": "https://www.journeyera.com/wp-content/uploads/2020/09/levada-dos-tornos-boaventura-03409.jpg",
+      "city": "madeira"
+    },
+
+    {
+      "name": "Machico",
+      "description": "One of the oldest towns in Madeira, known for its historic charm, sandy beach, and picturesque bay.",
+      "location": "32.7069° N, 16.7716° W",
+      "type": "Town",
+      "image": "https://image.arrivalguides.com/x/02/24d7478ec661267c83b8308838698c52.jpg",
+      "city": "madeira"
+    },
+    {
+      "name": "Fanal Forest",
+      "description": "A mystical laurel forest with ancient trees, offering a magical atmosphere and excellent hiking trails.",
+      "location": "32.8044° N, 17.1006° W",
+      "type": "Natural Reserve",
+      "image": "https://www.mibreit-photo.com/blog/wp-content/uploads/2021/12/Fanal-Ent.jpg",
+      "city": "madeira"
+    },
+
+    {
+      "name": "Madeira Botanical Garden",
+      "description": "A beautiful botanical garden in Funchal, showcasing a diverse collection of plants from around the world.",
+      "location": "32.6513° N, 16.9067° W",
+      "type": "Botanical Garden",
+      "image": "https://www.madeira-a-z.com/uploads/pics/jardim_botanico_4_03.jpg",
+      "city": "madeira"
+    },
+
+    {
+      "name": "Belém Tower",
+      "description": "A historic fortress located in the Belém district of Lisbon, symbolizing Portugal's Age of Discovery.",
+      "location": "38.6916° N, 9.2160° W",
+      "type": "Landmark",
+      "image": "https://www.lisbon.net/f/portugal/lisboa/guia/torre-belem-m.jpg",
+      "city": "lisbon"
+    },
+
+    {
+      "name": "Jerónimos Monastery",
+      "description": "A masterpiece of Manueline architecture, UNESCO World Heritage site, located in the Belém district.",
+      "location": "38.6976° N, 9.2067° W",
+      "type": "Historical Site",
+      "image": "https://cdn-imgix.headout.com/media/images/f4841353740934870da032ceda2d77fb-jeronimos%20monastery.jpg.jpg",
+      "city": "lisbon"
+    },
+
+    {
+      "name": "Lisbon Oceanarium",
+      "description": "One of the largest indoor aquariums in Europe, located in the Parque das Nações district.",
+      "location": "38.7669° N, 9.0950° W",
+      "type": "Aquarium",
+      "image": "https://siempredepaso.es/wp-content/uploads/2015/08/K03779-1.jpg",
+      "city": "lisbon"
+    },
+    {
+      "name": "São Jorge Castle",
+      "description": "A Moorish castle offering panoramic views of Lisbon and the Tagus River.",
+      "location": "38.7124° N, 9.1333° W",
+      "type": "Castle",
+      "image": "https://cdn-imgix.headout.com/media/images/c78811b923d7d22809ec69778dc4fa98-Sao%20Jorge%20castle%20aerial.jpg",
+      "city": "lisbon"
+    },
+    {
+      "name": "Rua Augusta Arch",
+      "description": "A triumphal arch in the heart of Lisbon, connecting the Commerce Square to the Augusta Street.",
+      "location": "38.7084° N, 9.1354° W",
+      "type": "Arch",
+      "image": "https://tripaim.com/blog/wp-content/uploads/2021/07/Arco-Rua-Augusta.jpg",
+      "city": "lisbon"
+    },
+
+    {
+      "name": "Ajuda National Palace",
+      "description": "A neoclassical palace in the Belem district, featuring impressive interiors and gardens.",
+      "location": "38.7060° N, 9.1984° W",
+      "type": "Palace",
+      "image": "https://cdn-imgix.headout.com/media/images/910d3e6d5b69626017cbc7ef7dcdefd7-19865-lisbon-national-palace-of-ajuda-02.jpg?auto=format&w=480&h=205.7142857142857&q=90&ar=21%3A9&crop=faces%2Cedges&fit=crop",
+      "city": "lisbon"
+    },
+    {
+      "name": "Rossio Square",
+      "description": "A central square in Lisbon surrounded by historic buildings, shops, and cafes.",
+      "location": "38.7144° N, 9.1387° W",
+      "type": "Square",
+      "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/39/7d/6e.jpg",
+      "city": "lisbon"
+    },
+    {
+      "name": "Lisbon Botanical Garden",
+      "description": "A beautiful green space in the heart of the city, featuring a diverse collection of plants.",
+      "location": "38.7162° N, 9.1596° W",
+      "type": "Botanical Garden",
+      "image": "https://img1.10bestmedia.com/Images/Photos/214892/p-Jardim-Ajuda_55_660x440_201405311206.jpg",
+      "city": "lisbon"
+    },
+
+    {
+      "name": "Lagoa do Fogo",
+      "description": "A stunning crater lake located in São Miguel, known for its clear blue waters and surrounded by lush landscapes.",
+      "location": "37.7741° N, 25.5148° W",
+      "type": "Natural Beauty",
+      "image": "https://example.com/lagoa_do_fogo.jpg",
+      "city": "azores"
+    },
+    {
+      "name": "Sete Cidades",
+      "description": "A picturesque village situated by two connected volcanic lakes, known for its colorful landscapes and scenic views.",
+      "location": "37.8536° N, 25.7869° W",
+      "type": "Village",
+      "image": "https://example.com/sete_cidades.jpg",
+      "city": "azores"
+    },
+    {
+      "name": "Furnas",
+      "description": "A town in São Miguel with natural hot springs, geysers, and beautiful botanical gardens.",
+      "location": "37.7601° N, 25.3134° W",
+      "type": "Thermal Springs",
+      "image": "https://example.com/furnas.jpg",
+      "city": "azores"
+    },
+    {
+      "name": "Pico Mountain",
+      "description": "The highest peak in Portugal, offering breathtaking views of the surrounding islands and the Atlantic Ocean.",
+      "location": "38.4680° N, 28.2756° W",
+      "type": "Mountain",
+      "image": "https://example.com/pico_mountain.jpg",
+      "city": "azores"
+    },
+    {
+      "name": "Caldeira Velha",
+      "description": "A natural park featuring hot springs, waterfalls, and lush vegetation, creating a tropical oasis.",
+      "location": "37.7739° N, 25.5464° W",
+      "type": "Natural Park",
+      "image": "https://example.com/caldeira_velha.jpg",
+      "city": "azores"
+    },
+    {
+      "name": "Angra do Heroísmo",
+      "description": "A UNESCO World Heritage site, the historical center of Angra do Heroísmo on Terceira Island is known for its charming architecture.",
+      "location": "38.6564° N, 27.2153° W",
+      "type": "Historical Site",
+      "image": "https://example.com/angra_do_heroismo.jpg",
+      "city": "azores"
+    },
+    {
+      "name": "Miradouro da Boca do Inferno",
+      "description": "A viewpoint on São Miguel with stunning views of the coastline, cliffs, and the Atlantic Ocean.",
+      "location": "37.7567° N, 25.4787° W",
+      "type": "Viewpoint",
+      "image": "https://example.com/boca_do_inferno.jpg",
+      "city": "azores"
+    },
+    {
+      "name": "Gruta do Carvão",
+      "description": "A volcanic cave system on São Miguel, providing visitors with an underground adventure through lava tubes.",
+      "location": "37.7602° N, 25.6208° W",
+      "type": "Cave",
+      "image": "https://example.com/gruta_do_carvao.jpg",
+      "city": "azores"
+    },
+    {
+      "name": "Santa Maria Beaches",
+      "description": "Santa Maria Island boasts beautiful sandy beaches with clear waters, perfect for relaxation and water activities.",
+      "location": "36.9737° N, 25.0997° W",
+      "type": "Beach",
+      "image": "https://example.com/santa_maria_beaches.jpg",
+      "city": "azores"
+    },
+    {
+      "name": "Ilhéu de Vila Franca do Campo",
+      "description": "A volcanic islet near São Miguel, with a natural swimming pool formed by an extinct volcanic crater.",
+      "location": "37.7126° N, 25.4238° W",
+      "type": "Islet",
+      "image": "https://example.com/vila_franca_do_campo.jpg",
+      "city": "azores"
+    },
+    {
+      "name": "Capelinhos Volcano",
+      "description": "A volcano on Faial Island that erupted in 1957, leaving behind a unique and barren landscape.",
+      "location": "38.5980° N, 28.7171° W",
+      "type": "Volcano",
+      "image": "https://example.com/capelinhos_volcano.jpg",
+      "city": "azores"
+    },
+    {
+      "name": "Lajes do Pico Whaling Museum",
+      "description": "A museum on Pico Island dedicated to the history of whaling in the Azores.",
+      "location": "38.4147° N, 28.2205° W",
+      "type": "Museum",
+      "image": "https://example.com/lajes_do_pico_museum.jpg",
+      "city": "azores"
+    },
+    {
+      "name": "Nordeste",
+      "description": "A municipality on São Miguel known for its natural beauty, including waterfalls, forests, and hiking trails.",
+      "location": "37.8231° N, 25.1560° W",
+      "type": "Municipality",
+      "image": "https://example.com/nordeste.jpg",
+      "city": "azores"
+    },
+    {
+      "name": "Mata do Canário",
+      "description": "A protected area on São Miguel featuring an enchanting laurel forest and hiking trails.",
+      "location": "37.7875° N, 25.7058° W",
+      "type": "Natural Reserve",
+      "image": "https://example.com/mata_do_canario.jpg",
+      "city": "azores"
+    },
+
+    {
+      "name": "Bom Jesus do Monte",
+      "description": "A hilltop sanctuary with a Baroque staircase leading to a church, offering panoramic views of Braga.",
+      "location": "41.5550° N, 8.4050° W",
+      "type": "Sanctuary",
+      "image": "https://finallylost.com/wp-content/uploads/2022/02/Bom-Jesus-do-Monte-20211139.jpg",
+      "city": "braga"
+    },
+    {
+      "name": "Braga Cathedral",
+      "description": "A Romanesque cathedral dating back to the 11th century, known for its historical and architectural significance.",
+      "location": "41.5514° N, 8.4284° W",
+      "type": "Cathedral",
+      "image": "https://bragacool.com/sites/default/files/styles/ny_article_horizontal__w720xh480_watermark/public/imagens/galeria/braga_cool_visitar_se_de_braga_05.jpg?itok=88OV21PQ",
+      "city": "braga"
+    },
+
+    {
+      "name": "Arcada Street",
+      "description": "A charming pedestrian street in Braga, lined with shops, cafes, and historical buildings.",
+      "location": "41.5496° N, 8.4293° W",
+      "type": "Street",
+      "image": "https://media.disneylandparis.com/d4th/en-gb/images/n017851_2050jan01_discovey-arcade_16-9_tcm752-159485.jpg",
+      "city": "braga"
+    },
+
+    {
+      "name": "Gualtar Castle",
+      "description": "The ruins of a medieval castle on the outskirts of Braga, offering a glimpse into the region's history.",
+      "location": "41.5658° N, 8.4164° W",
+      "type": "Castle",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/7br3c32yq18n-PT/image;s=1280x852",
+      "city": "braga"
+    },
+    {
+      "name": "Braga Municipal Stadium",
+      "description": "The home stadium of Sporting Braga, a modern sports facility hosting football matches and events.",
+      "location": "41.5590° N, 8.4154° W",
+      "type": "Stadium",
+      "image": "https://facts.net/wp-content/uploads/2023/09/12-enigmatic-facts-about-estadio-municipal-de-braga-1695142124.jpg",
+      "city": "braga"
+    },
+
+    {
+      "name": "Braga Market",
+      "description": "A bustling market offering fresh produce, local products, and a vibrant atmosphere.",
+      "location": "41.5500° N, 8.4280° W",
+      "type": "Market",
+      "image": "https://praca.cm-braga.pt/wp-content/uploads/2023/03/7L7A6054-9.jpg",
+      "city": "braga"
+    },
+
+    {
+      "name": "Geres National Park",
+      "description": "A stunning national park near Braga, known for its landscapes, waterfalls, and hiking trails.",
+      "location": "41.7270° N, 8.1544° W",
+      "type": "National Park",
+      "image": "https://lp-cms-production.imgix.net/2019-06/3cfb033e93c57fc3ad0593e217d34fe8-parque-nacional-da-peneda-geres.jpg",
+      "city": "braga"
+    },
+
+    {
+      "name": "Bom Jesus Cable Car",
+      "description": "A cable car offering a scenic ride to the Bom Jesus do Monte sanctuary, providing panoramic views of Braga.",
+      "location": "41.5540° N, 8.4069° W",
+      "type": "Cable Car",
+      "image": "https://i.ytimg.com/vi/uuutHlWcesY/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGEUgZShAMA8=&rs=AOn4CLADC83bj-0yXy2A4xRv8l8scEEdJw",
+      "city": "braga"
+    },
+
+    {
+      "name": "Crystal Palace Gardens",
+      "description": "A beautiful public park with landscaped gardens, statues, and panoramic views of the Douro River.",
+      "location": "41.1482° N, 8.6278° W",
+      "type": "Park",
+      "image": "https://porto.travel/wp-content/uploads/sites/17/2018/04/palacio-de-cristal-porto-1024x681.jpeg",
+      "city": "porto"
+    },
+    {
+      "name": "Sea Life Porto",
+      "description": "An aquarium located in Porto, showcasing a variety of marine life and providing educational exhibits.",
+      "location": "41.1866° N, 8.6789° W",
+      "type": "Aquarium",
+      "image": "https://images.trustinnews.pt/uploads/sites/4/2022/06/220614_ISN6734-HDR-1600x1065.jpg",
+      "city": "porto"
+    },
+    {
+      "name": "Majestic Café",
+      "description": "A historic café in the heart of Porto, known for its elegant Belle Époque interior and cultural significance.",
+      "location": "41.1477° N, 8.6112° W",
+      "type": "Café",
+      "image": "https://cciporto.com/wp-content/uploads/2021/02/majestic_a.jpg",
+      "city": "porto"
+    },
+    {
+      "name": "Port Wine Cellars",
+      "description": "Wine cellars located in Vila Nova de Gaia, where visitors can learn about and taste the famous Port wine.",
+      "location": "41.1339° N, 8.6123° W",
+      "type": "Winery",
+      "image": "https://secretsfromportugal.com/wp-content/uploads/2019/11/Secrets-Tips-The-Port-Wine-Cellars-You-Must-Know-2.jpg.jpg",
+      "city": "porto"
+    },
+
+    {
+      "name": "Mercado do Bolhão",
+      "description": "A traditional market in the center of Porto, offering fresh produce, local products, and a lively atmosphere.",
+      "location": "41.1498° N, 8.6049° W",
+      "type": "Market",
+      "image": "https://i0.wp.com/walkinporto.com/wp-content/uploads/2021/04/imagem_campanha_guia_gratis_bolhao_1200_630.jpg?fit=1200%2C630&ssl=1",
+      "city": "porto"
+    },
+    {
+      "name": "Monument Church of São Francisco",
+      "description": "A Gothic church with a Baroque interior, known for its ornate decoration and historical significance.",
+      "location": "41.1403° N, 8.6130° W",
+      "type": "Church",
+      "image": "https://www.madaboutporto.com/assets/img/973x615_igreja_sao_fancisco_02.jpg",
+      "city": "porto"
+    },
+
+    {
+      "name": "Faro Old Town",
+      "description": "Explore the charming cobblestone streets and historic architecture of Faro's Old Town.",
+      "location": "37.0194° N, 7.9301° W",
+      "type": "Historical Site",
+      "image": "https://a.cdn-hotels.com/gdcs/production158/d776/409819b3-ef55-4549-ba24-aafbccd63cac.jpg",
+      "city": "faro"
+    },
+    {
+      "name": "Ria Formosa Natural Park",
+      "description": "Discover the diverse ecosystem of Ria Formosa, a protected natural park near Faro.",
+      "location": "37.0059° N, 7.9326° W",
+      "type": "Natural Reserve",
+      "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6e/d5/03.jpg",
+      "city": "faro"
+    },
+    {
+      "name": "Faro Cathedral",
+      "description": "Visit the historic Faro Cathedral, a symbol of the city's rich cultural heritage.",
+      "location": "37.0192° N, 7.9303° W",
+      "type": "Cathedral",
+      "image": "https://www.historyhit.com/app/uploads/fly-images/5156471/Faro-Cathedral-788x537.jpg?x84599",
+      "city": "faro"
+    },
+    {
+      "name": "Faro Archaeological Museum",
+      "description": "Immerse yourself in Faro's history at the Archaeological Museum showcasing artifacts from different eras.",
+      "location": "37.0197° N, 7.9377° W",
+      "type": "Museum",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/95/36/ff/faro-municipal-museum.jpg?w=1200&h=-1&s=1",
+      "city": "faro"
+    },
+    {
+      "name": "Marina de Faro",
+      "description": "Stroll along the beautiful Marina de Faro, lined with cafes and offering scenic views of the harbor.",
+      "location": "37.0139° N, 7.9322° W",
+      "type": "Marina",
+      "image": "https://img.marinas.com/v2/8c86bc2cc25d55bfb794d027782f591b57f4c716e17a27e8a0cae873e845be54.jpg",
+      "city": "faro"
+    },
+
+    {
+      "name": "University of Coimbra",
+      "description": "Visit the historic University of Coimbra, a UNESCO World Heritage site with a rich academic tradition.",
+      "location": "40.2056° N, 8.4196° W",
+      "type": "University",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/88/44/ed/biblioteca-joanina-foto.jpg?w=1200&h=1200&s=1",
+      "city": "coimbra"
+    },
+    {
+      "name": "Joanina Library",
+      "description": "Explore the Joanina Library, part of the University of Coimbra, known for its baroque architecture and resident bats.",
+      "location": "40.2081° N, 8.4285° W",
+      "type": "Library",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/9b/7b/d3/photo4jpg.jpg?w=1200&h=-1&s=1",
+      "city": "coimbra"
+    },
+    {
+      "name": "Conímbriga Roman Ruins",
+      "description": "Step back in time at the Conímbriga Roman Ruins, one of the best-preserved Roman settlements in Portugal.",
+      "location": "40.0995° N, 8.5093° W",
+      "type": "Archaeological Site",
+      "image": "https://www.historyhit.com/app/uploads/fly-images/5166370/conimbriga-ruins-788x537.jpg?x33932",
+      "city": "coimbra"
+    },
+    {
+      "name": "Santa Clara-a-Velha",
+      "description": "Visit the ruins of Santa Clara-a-Velha, a medieval monastery located along the Mondego River.",
+      "location": "40.2112° N, 8.4273° W",
+      "type": "Historical Site",
+      "image": "https://s3.observador.pt/wp-content/uploads/2016/01/18144014/20192085.jpg",
+      "city": "coimbra"
+    },
+    {
+      "name": "Portugal dos Pequenitos",
+      "description": "Enjoy family-friendly fun at Portugal dos Pequenitos, a miniature park featuring replicas of Portuguese architecture.",
+      "location": "40.1983° N, 8.4350° W",
+      "type": "Theme Park",
+      "image": "https://www.fbb.pt/pp/wp-content/uploads/sites/11/2020/09/Portugal-dos-Pequnitos_35-aspect-ratio-1600x686-1-scaled.jpg",
+      "city": "coimbra"
+    },
+
+    {
+      "name": "Castle of Santarém",
+      "description": "Explore the historic Castle of Santarém, offering panoramic views of the city and the Tagus River.",
+      "location": "39.2358° N, 8.6849° W",
+      "type": "Historical Site",
+      "image": "https://mediaim.expedia.com/localexpert/713098/8f9c86e2-5722-4ad2-a45e-8c8df27bfa82.jpg?impolicy=resizecrop&rw=1005&rh=565",
+      "city": "santarem"
+    },
+    {
+      "name": "Igreja do Seminário",
+      "description": "Visit the Igreja do Seminário, a beautiful church with intricate baroque architecture and stunning interiors.",
+      "location": "39.2365° N, 8.6807° W",
+      "type": "Church",
+      "image": "https://live.staticflickr.com/2625/32918452512_6b478a9893_b.jpg",
+      "city": "santarem"
+    },
+    {
+      "name": "Portas do Sol Viewpoint",
+      "description": "Enjoy breathtaking views at the Portas do Sol Viewpoint, overlooking the city of Santarém and the surrounding landscapes.",
+      "location": "39.2353° N, 8.6816° W",
+      "type": "Scenic Viewpoint",
+      "image": "https://imgmd.net/images/v1/guia/1701382/miradouro-das-portas-do-sol.jpg",
+      "city": "santarem"
+    },
+    {
+      "name": "Garden of Portas do Sol",
+      "description": "Relax in the peaceful Garden of Portas do Sol, a green space with gardens and walking paths.",
+      "location": "39.2353° N, 8.6817° W",
+      "type": "Park",
+      "image": "https://cdn.visitportugal.com/sites/default/files/styles/encontre_detalhe_poi_destaque/public/mediateca/shutterstock_421438744_PAN_JardimPortasDoSolSantarem_AT_RI_StockPhotosArt_660x371.jpg?itok=HNd-13pf",
+      "city": "santarem"
+    },
+    {
+      "name": "Núcleo Museológico of Santarém",
+      "description": "Discover the history of Santarém at the Núcleo Museológico, a museum showcasing artifacts from different eras.",
+      "location": "39.2362° N, 8.6815° W",
+      "type": "Museum",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-m/1280/16/13/b6/ee/igreja-de-sao-joao-de.jpg",
+      "city": "santarem"
+    },
+
+    {
+      "name": "Pena Palace",
+      "description": "Visit the colorful Pena Palace, a fairy-tale castle set on the Sintra mountains, offering stunning views of the surrounding landscape.",
+      "location": "38.7876° N, 9.3906° W",
+      "type": "Palace",
+      "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0c/0b/cc/da.jpg",
+      "city": "sintra"
+    },
+    {
+      "name": "Quinta da Regaleira",
+      "description": "Explore the mystical Quinta da Regaleira, known for its romantic gardens, underground tunnels, and the iconic Initiation Well.",
+      "location": "38.7962° N, 9.3965° W",
+      "type": "Estate",
+      "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/74/17/86.jpg",
+      "city": "sintra"
+    },
+    {
+      "name": "Moorish Castle",
+      "description": "Discover the Moorish Castle, an ancient fortress with panoramic views of Sintra and its surroundings.",
+      "location": "38.7973° N, 9.3965° W",
+      "type": "Castle",
+      "image": "https://www.madaboutsintra.com/assets/img/973x615_moorish_castle.jpg",
+      "city": "sintra"
+    },
+    {
+      "name": "National Palace of Sintra",
+      "description": "Visit the National Palace of Sintra, a historic palace known for its distinctive chimneys and royal architecture.",
+      "location": "38.8002° N, 9.3835° W",
+      "type": "Palace",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Palacio_Nacional%2C_Sintra%2C_Portugal%2C_2019-05-25%2C_DD_89.jpg/800px-Palacio_Nacional%2C_Sintra%2C_Portugal%2C_2019-05-25%2C_DD_89.jpg",
+      "city": "sintra"
+    },
+    {
+      "name": "Cabo da Roca",
+      "description": "Experience the westernmost point of continental Europe at Cabo da Roca, a scenic cliff with breathtaking views of the Atlantic Ocean.",
+      "location": "38.7805° N, 9.4984° W",
+      "type": "Natural Landmark",
+      "image": "https://cdn.visitportugal.com/sites/default/files/styles/encontre_detalhe_poi_destaque/public/mediateca/NOV0053.jpg?itok=1dSywn_J",
+      "city": "sintra"
+    },
+
+    {
+      "name": "Guimarães Castle",
+      "description": "Explore the historic Guimarães Castle, a medieval fortress and a UNESCO World Heritage site.",
+      "location": "41.4425° N, 8.2915° W",
+      "type": "Castle",
+      "image": "https://cdn.visitportugal.com/sites/default/files/styles/large/public/mediateca/CG---4_660x371.jpg?itok=1GcFDRr3",
+      "city": "guimaraes"
+    },
+    {
+      "name": "Palace of the Dukes of Braganza",
+      "description": "Visit the Palace of the Dukes of Braganza, a well-preserved medieval palace showcasing the history of the region.",
+      "location": "41.4421° N, 8.2920° W",
+      "type": "Palace",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/DJI_0156pa%C3%A7o_duques_bragan%C3%A7a.jpg/1200px-DJI_0156pa%C3%A7o_duques_bragan%C3%A7a.jpg",
+      "city": "guimaraes"
+    },
+    {
+      "name": "Largo da Oliveira",
+      "description": "Stroll through Largo da Oliveira, a historic square surrounded by medieval buildings, cafes, and a beautiful olive tree.",
+      "location": "41.4427° N, 8.2932° W",
+      "type": "Historical Square",
+      "image": "https://c8.alamy.com/comp/2H6JPC1/largo-da-oliveira-square-unesco-world-heritage-site-guimaraes-minho-portugal-europe-2H6JPC1.jpg",
+      "city": "guimaraes"
+    },
+    {
+      "name": "Church of São Francisco",
+      "description": "Admire the Gothic architecture of the Church of São Francisco, known for its ornate interior and historic significance.",
+      "location": "41.4430° N, 8.2925° W",
+      "type": "Church",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/00/1f/9d/igreja-real-de-sao-francisco.jpg?w=1200&h=-1&s=1",
+      "city": "guimaraes"
+    },
+    {
+      "name": "Penha Mountain",
+      "description": "Hike or take a cable car to the top of Penha Mountain for panoramic views of Guimarães and the surrounding landscapes.",
+      "location": "41.4348° N, 8.3350° W",
+      "type": "Natural Landmark",
+      "image": "https://www.pousadasofportugal.com/wp-content/uploads/2019/12/guimaraes-church-1024x683.jpg",
+      "city": "guimaraes"
+    },
+
+    {
+      "name": "Boca do Inferno",
+      "description": "Witness the natural wonder of Boca do Inferno, a seaside cliff and cave formation with powerful waves crashing against the rocks.",
+      "location": "38.6913° N, 9.4247° W",
+      "type": "Natural Landmark",
+      "image": "https://www.visitcascais.com/media/1478/pt_cascais_boca_do_inferno-170513193854.jpg",
+      "city": "cascais"
+    },
+    {
+      "name": "Cascais Marina",
+      "description": "Stroll along the charming Cascais Marina, lined with yachts, restaurants, and shops, offering a picturesque waterfront experience.",
+      "location": "38.6993° N, 9.4201° W",
+      "type": "Marina",
+      "image": "https://img.marinas.com/v2/8e924ea72d5e51e50fc1cf17ec43af927c9caf407eaac83012c9cd2c79a056ba.jpg",
+      "city": "cascais"
+    },
+    {
+      "name": "Cascais Old Town",
+      "description": "Explore the historic Cascais Old Town, with cobblestone streets, colorful buildings, and a lively atmosphere.",
+      "location": "38.6985° N, 9.4215° W",
+      "type": "Historical District",
+      "image": "https://media.timeout.com/images/103697717/image.jpg",
+      "city": "cascais"
+    },
+    {
+      "name": "Museum of the Sea",
+      "description": "Learn about Cascais' maritime history at the Museum of the Sea, featuring exhibits on fishing, navigation, and seafaring traditions.",
+      "location": "38.6960° N, 9.4192° W",
+      "type": "Museum",
+      "image": "https://www.portugalvisitor.com/images/content_images/museu-do-mar-4.jpg",
+      "city": "cascais"
+    },
+    {
+      "name": "Santa Marta Lighthouse",
+      "description": "Visit the Santa Marta Lighthouse, an iconic structure with panoramic views of the coast and the Atlantic Ocean.",
+      "location": "38.6996° N, 9.4182° W",
+      "type": "Lighthouse",
+      "image": "https://www.photohound.co/images/1009402m.jpg",
+      "city": "cascais"
+    }
+  ]
+}
