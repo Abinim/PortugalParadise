@@ -103,7 +103,11 @@ const AddPlaces = ({ addPlace, editMode, placeId, onEdit }) => {
         />
 
         <button type='submit'>{editMode ? 'Save Changes' : 'Add Place'}</button>
-        <button type=''>Edit</button>
+        {editMode && (
+          <button type='button' onClick={onEdit}>
+            Edit
+          </button>
+        )}
       </form>
     </div>
   );

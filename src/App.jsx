@@ -1,13 +1,15 @@
+// Import necessary components and modules
 import React, { useState, useEffect } from 'react';
-import { Routes, Route } from 'react-router-dom';
 import axios from 'axios';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './Pages/Home';
 import AboutPortugal from './Pages/AboutPortugal';
 import PopularCities from './Pages/PopularCities';
+import AddYourPlace from './Pages/AddYourPlace';
 import CityDetails from './Pages/CityDetails';
 import AddPlaces from './components/AddPlaces';
-import EditPlaces from './Pages/EditPlaces';
+import EditPlaces from './components/EditPlaces'; // Import EditPlaces component
 import Footer from './components/Footer';
 
 import './App.css';
@@ -52,10 +54,11 @@ function App() {
         <Route path='/about-portugal' element={<AboutPortugal />} />
         <Route path='/popular-cities' element={<PopularCities />} />
         <Route path='/popular-cities/:cityName' element={<CityDetails />} />
+        <Route path='/add-your-place' element={<AddYourPlace />} />
         <Route path='/add-places' element={<AddPlaces addPlace={addPlace} />} />
-        Add route for editing a place
+        {/* Add route for editing a place */}
         <Route
-          path='/edit-places/:Id'
+          path='/edit-places/:placeId'
           element={<EditPlaces places={places} onDelete={handleDelete} />}
         />
       </Routes>

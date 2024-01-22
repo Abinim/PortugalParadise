@@ -22,8 +22,8 @@ function Navbar() {
           <button>Restaurants</button>
         </Link>
 
-        <Link className='hero' to='/login'>
-          <button>Login</button>
+        <Link to='/add-your-place'>
+          <button>AddYourPlace</button>
         </Link>
       </div>
     </nav>
