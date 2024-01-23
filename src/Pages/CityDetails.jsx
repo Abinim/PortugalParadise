@@ -1,7 +1,8 @@
+// Import necessary modules and components
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { useParams, Link } from 'react-router-dom';
-// import EditPlaces from '../components/EditPlaces';
+import { useParams, useNavigate, Link } from 'react-router-dom';
+import './CityDetails.css';
 
 const API_URL = 'https://testingprojects.adaptable.app/places';
 
@@ -9,6 +10,7 @@ function CityDetails() {
   const [places, setPlaces] = useState([]);
   const [selectedCity, setSelectedCity] = useState(null);
   const { cityName } = useParams();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchPlaces = async () => {
@@ -27,28 +29,28 @@ function CityDetails() {
     fetchPlaces();
   }, [cityName]);
 
-  const filteredPlaces = selectedCity
-    ? places.filter(
-        place => place.city.toLowerCase() === selectedCity.toLowerCase()
-      )
-    : places;
-
   return (
     <div id='placedetails'>
-      {selectedCity && <h1>{selectedCity}</h1>}
-
-      {filteredPlaces.map(place => (
-        <div key={place.id} className='place-details'>
-          <h3>{place.name}</h3>
-          <img src={place.image} alt={place.name} />
-          <p>{place.description}</p>
-          <h3>Type: {place.type}</h3>
-          <h4>{place.location}</h4>
-          <Link to={`/edit-places/${place.id}`}>
-            <button>Edit</button>
-          </Link>
-        </div>
-      ))}
+      {places
+        .filter(place =>
+          selectedCity
+            ? place.city.toLowerCase() === selectedCity.toLowerCase()
+            : true
+        )
+        .map(place => (
+          <div key={place.id} className='place-details'>
+            <h3>{place.name}</h3>
+            <div className='image-container'>
+              <img src={place.image} alt={place.name} />
+            </div>
+            <p>{place.description}</p>
+            <h4>{place.type}</h4>
+            <h5>{place.location}</h5>
+            <Link to={`/edit-places/${place.id}`}>
+              <button className='edit-button'>Edit</button>
+            </Link>
+          </div>
+        ))}
     </div>
   );
 }

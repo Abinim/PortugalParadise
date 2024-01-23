@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useParams, useNavigate } from 'react-router-dom';
+import './EditPlaces.css';
 
 const API_URL = 'https://testingprojects.adaptable.app/places';
 
@@ -41,26 +42,39 @@ const EditPlaces = ({ onDelete }) => {
   const handleEditSubmit = async e => {
     try {
       e.preventDefault();
-
-      const response = await axios.put(
+      await axios.put(
         `https://testingprojects.adaptable.app/places/${placeId}`,
         editedPlace
       );
 
-      // Assuming onDelete is used to refresh the list after deletion
-      onDelete(placeId);
+      if (onDelete) {
+        onDelete(placeId);
+      }
 
-      // Redirect to the city details page after editing
       navigate(`/popular-cities/${editedPlace.city}`);
-
-      // Log the response
-      console.log('Edit response:', response.data);
     } catch (error) {
       console.error('Error editing place:', error.message);
     }
   };
+
+  const handleDelete = async () => {
+    try {
+      await axios.delete(
+        `https://testingprojects.adaptable.app/places/${placeId}`
+      );
+
+      if (onDelete) {
+        onDelete(placeId);
+      }
+
+      navigate('/popular-cities');
+    } catch (error) {
+      console.error('Error deleting place:', error.message);
+    }
+  };
+
   return (
-    <div className='AddPlaces'>
+    <div className='EditPlaces'>
       <h4>Edit Place</h4>
 
       <form onSubmit={handleEditSubmit}>
@@ -119,6 +133,8 @@ const EditPlaces = ({ onDelete }) => {
 
         <button type='submit'>Save Changes</button>
       </form>
+
+      <button onClick={handleDelete}>Delete Place</button>
     </div>
   );
 };

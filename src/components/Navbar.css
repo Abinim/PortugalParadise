@@ -1,0 +1,29 @@
+nav {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.7%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.NavBtn {
+  display: flex;
+  list-style: none;
+  gap: 1vw;
+  padding: 1vw;
+  color: RED;
+  background-color: #5c3c5f;
+  border-radius: 1vw;
+}
+
+nav button {
+  height: 3vw;
+  width: 12vw;
+  border-radius: 1vw;
+  font-size: 1vw;
+}
+.NavBtn:hover {
+  background-color: #adb5bd;
+}

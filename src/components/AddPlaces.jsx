@@ -1,4 +1,3 @@
-// AddPlaces.jsx
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 const API_URL = 'https://testingprojects.adaptable.app/places';
@@ -25,7 +24,6 @@ const AddPlaces = ({ addPlace, editMode, placeId, onEdit }) => {
     e.preventDefault();
 
     try {
-      // console.log('data', placeData);
       await axios.post(
         'https://testingprojects.adaptable.app/places',
         placeData

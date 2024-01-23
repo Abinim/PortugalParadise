@@ -66,8 +66,6 @@ const EditPlaces = ({ places, onDelete }) => {
           required
         />
 
-        {/* Add other input fields for description, location, type, image, city, etc. */}
-
         <button type='submit'>Save Changes</button>
       </form>
     </div>

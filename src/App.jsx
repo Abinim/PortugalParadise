@@ -1,4 +1,3 @@
-// Import necessary components and modules
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Routes, Route } from 'react-router-dom';
@@ -9,7 +8,7 @@ import PopularCities from './Pages/PopularCities';
 import AddYourPlace from './Pages/AddYourPlace';
 import CityDetails from './Pages/CityDetails';
 import AddPlaces from './components/AddPlaces';
-import EditPlaces from './components/EditPlaces'; // Import EditPlaces component
+import EditPlaces from './components/EditPlaces'; 
 import Footer from './components/Footer';
 
 import './App.css';
@@ -56,10 +55,10 @@ function App() {
         <Route path='/popular-cities/:cityName' element={<CityDetails />} />
         <Route path='/add-your-place' element={<AddYourPlace />} />
         <Route path='/add-places' element={<AddPlaces addPlace={addPlace} />} />
-        {/* Add route for editing a place */}
+
         <Route
           path='/edit-places/:placeId'
-          element={<EditPlaces places={places} onDelete={handleDelete} />}
+          element={<EditPlaces places={places} />}
         />
       </Routes>
       <Footer />
