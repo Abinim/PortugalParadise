@@ -8,10 +8,10 @@
 }
 
 .box-about {
-  width: 300px;
+  width: 400px;
   margin: 20px;
   padding: 20px;
-  border: 2px solid #e67e22;
+  border: 2px solid #ea638c;
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -26,12 +26,15 @@
 
 .about-head {
   margin-bottom: 10px;
-  color: #e67e22;
+  color: #800e13;
   font-size: 22px;
+  text-decoration: underline;
 }
 
 .about-p {
-  margin: 10px 0;
-  color: #555;
-  line-height: 1.5;
+  color: #1b4965;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
 }

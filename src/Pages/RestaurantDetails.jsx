@@ -46,8 +46,8 @@ function RestaurantDetails() {
             <div className='image-container'>
               <img src={restaurant.image} alt={restaurant.name} />
             </div>
-            <p>{restaurant.description}</p>
             <h4>{restaurant.type}</h4>
+            <p>{restaurant.address}</p>
             <h5>{restaurant.location}</h5>
           </div>
         ))}

@@ -29,7 +29,7 @@ const restaurants = [
     img: 'https://media-manager.noticiasaominuto.com/1920/naom_64ae775acf152.jpg',
   },
   {
-    name: 'Santarem',
+    name: 'santarém',
     description: 'Top 6 Restaurants\nIn Santarem',
     img: 'https://static.wixstatic.com/media/c96a9d_6b363e28a1024eb6a77141b412980408~mv2.jpg/v1/fill/w_2880,h_1150,fp_0.50_0.50,q_90,usm_1.20_1.00_0.01,enc_auto/c96a9d_6b363e28a1024eb6a77141b412980408~mv2.jpg',
   },
@@ -44,7 +44,7 @@ const restaurants = [
     img: 'https://img.marinas.com/v2/8ed0e29c7ba7ee2128e6999ab39cd82bd6416a984be77762ca5a7484ff42d124.jpg',
   },
   {
-    name: 'Guimaraes',
+    name: 'Guimarães',
     description: 'Top 6 Restaurants\nIn Guimaraes',
     img: 'https://rossiwrites.com/wp-content/uploads/2022/04/The-medieval-castle-Guimaraes-Portugal-rossiwrites.com-3.jpg.webp',
   },

@@ -5,16 +5,18 @@
 }
 
 #placedetails > div {
-  flex: 0 1 calc(300px - 30px);
+  overflow: hidden;
+  flex: 0 1 calc(300px - 27px);
   margin: 15px;
   padding: 15px;
-  border: 2px solid #e67e22;
+  border: 2px solid #ea638c;
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
   text-align: center;
   position: relative;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.2s ease-in-out;
   background-color: #fff;
+  height: 100%;
 }
 
 #placedetails > div:hover {
@@ -25,7 +27,7 @@
 #placedetails h3 {
   margin-bottom: 10px;
   color: #e67e22;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 #placedetails img {
@@ -64,19 +66,21 @@
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
+  height: 100%-10%;
 }
 
 #placedetails .edit-button {
-  background-color: #d0bfcb;
-  color: #01080e;
-  padding: 10px 15px;
+  background-color: #e67e22; /* Changed button color for better contrast */
+  color: #fff; /* Changed text color for better visibility */
+  padding: 12px 18px; /* Increased padding for a more comfortable click */
   border: none;
-  border-radius: 5px;
+  border-radius: 8px; /* Increased border radius for a softer look */
   cursor: pointer;
   transition: background-color 0.3s ease;
   width: 100%;
+  font-size: 16px;
 }
 
 #placedetails .edit-button:hover {
-  background-color: #1871a4;
+  background-color: #2980b9; /* Darker blue on hover */
 }
